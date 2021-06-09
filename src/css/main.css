@@ -1,0 +1,114 @@
+@import url("//use.fontawesome.com/releases/v5.15.3/css/all.css");
+body{
+    background: linear-gradient(rgb(100,50,50), rgb(80,20,20)) no-repeat;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    min-height: 100vh;
+}
+h2, h3{
+    text-align: center;
+    color:#e7ae58;
+}
+#rabbit-title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-left: 1.5rem;    
+}
+
+#text span{
+    background-color: yellow;
+    text-transform: uppercase;
+    font-size: bold;
+    color: black;
+}
+.rabbit-image{
+    align-items: center;   
+    padding: 1rem; 
+}
+.image{
+    width:350px;
+    height:300px
+}
+#text {
+    text-align: justify;    
+    padding:20px;
+}
+.read-more-btn{
+    font-weight: 800;
+    color: white;
+}
+
+/* Pagination links */
+.pagination{ 
+margin: 0 auto; 
+}
+.pagination a {   
+    color: brown;   
+    padding:0.5rem 1rem;  
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #e7ae58;
+    margin-left: 2px;
+    border-radius: 10px; 
+    transition: background-color .3s;
+  }  
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;
+}
+  .hide{     
+      display: none;    
+  }
+ 
+.article-text{
+    padding-top: 30px;
+    font-size: 1.6rem;  
+    line-height: 2rem;       
+}
+
+.article-text p{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.articles-container{
+    width: 100%vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 5px 50px;    
+    color:#e7ae58;;
+}
+@media only screen and (max-width: 890px) {      
+    .articles-container{
+        padding:10px;
+        margin: 0px auto;
+    }
+    .pagination a {      
+    padding:0.5rem ;    
+    font-size: 0.6rem;
+    }
+    .image{
+        width:300px;
+        height: 250px;
+    }
+  }
+@media only screen and (max-width: 500px) {      
+    .articles-container{
+        padding:10px;
+        margin: 0px auto;
+    }
+    .pagination a {      
+    padding:0.3rem ;    
+    font-size: 0.5rem;
+    }
+    .image{
+        width:250px;
+        height: 200px;
+    }
+  }
+  
+
+ 
